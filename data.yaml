@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 35
+names: ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+
+roboflow:
+  workspace: indian-sign-language-ebxwp
+  project: indian_hand_sign_language
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/indian-sign-language-ebxwp/indian_hand_sign_language/dataset/3
